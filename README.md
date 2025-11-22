@@ -99,8 +99,6 @@ List ini digunakan untuk menampilkan seluruh buku pada halaman Home.
 
 ## Screenshot Aplikasi
 
-(Sisipkan minimal 5 screenshot berikut)
-
 1. ✅ Halaman Login
 ![Login](screenshots/login.png)
 2. ✅ Halaman Home
