@@ -40,8 +40,17 @@
 
 ## Screenshot
 
-1. `screenshots/login_page.jpg` – Halaman login
-2. `home_light.JPG` – Home page dalam light mode
-3. `home_dark.JPG` – Home page dalam dark mode
-4. `add_book.JPG` – Halaman tambah buku
-5. `after_theme_change.JPG` – Tampilan setelah ganti tema
+1. Login Page  
+   ![Login Page](screenshots/login_page.jpg)
+
+2. Home (Light Mode)  
+   ![Home Light](screenshots/home_light.jpg)
+
+3. Home (Dark Mode)  
+   ![Home Dark](screenshots/home_dark.jpg)
+
+4. Tambah Buku  
+   ![Add Book](screenshots/add_book.jpg)
+
+5. Setelah Ganti Tema  
+   ![Theme Changed](screenshots/after_theme_change.jpg)
