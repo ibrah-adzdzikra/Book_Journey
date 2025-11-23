@@ -40,7 +40,7 @@
 
 ## Screenshot
 
-1. `login_page.JPG` – Halaman login
+1. `screenshots/login_page.jpg` – Halaman login
 2. `home_light.JPG` – Home page dalam light mode
 3. `home_dark.JPG` – Home page dalam dark mode
 4. `add_book.JPG` – Halaman tambah buku
