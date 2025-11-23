@@ -45,5 +45,3 @@
 3. `home_dark.jpg` – Home page dalam dark mode
 4. `add_book.jpg` – Halaman tambah buku
 5. `after_theme_change.jpg` – Tampilan setelah ganti tema
-
-> **Catatan**: Pastikan semua screenshot ada di repo GitHub sebelum dikumpulkan.
