@@ -37,8 +37,7 @@ Universitas Ary Ginanjar
 
 ---
 
-## 📱 Tampilan Aplikasi
-*(Opsional: tambahkan screenshot di sini setelah deploy)*  
+## 📱 Tampilan Aplikasi 
 Contoh alur:
 1. Login → masuk ke halaman utama  
 2. Tab **My Books**: kelola koleksi buku  
@@ -46,7 +45,22 @@ Contoh alur:
 
 ---
 
-## ▶️ Cara Menjalankan
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/namakamu/book_journey.git
+## Screenshot
+
+1. Login Page  
+   ![Login Page](screenshots/login_page.jpeg)
+
+2. Home (Light Mode)  
+   ![Home Light](screenshots/home_light.jpeg)
+
+3. Home (Dark Mode)  
+   ![Home Dark](screenshots/home_dark.jpeg)
+
+4. Tambah Buku  
+   ![Add Book](screenshots/add_book.jpeg)
+
+5. Explore (Light Mode)  
+   ![Explore Light](screenshots/explore_light.jpeg)
+
+6. Explore (Dark Mode)  
+   ![Explore Dark](screenshots/explore_dark.jpeg)
