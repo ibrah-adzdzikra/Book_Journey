@@ -1,56 +1,52 @@
-# Book Journey – Aplikasi Pelacak Buku
+# 📘 Book Journey
 
-## Anggota Tim
-- Nama: [Muhammad Ibrah Adzdzikra]  
-  NIM: [2310120010]
+Aplikasi manajemen bacaan pribadi berbasis Flutter yang membantu pengguna mencatat, mengelola, dan melacak buku-buku yang sedang dibaca, sudah selesai, atau ingin dibaca. Dilengkapi fitur cuaca real-time berdasarkan lokasi dan daftar toko buku terdekat di Jakarta!
 
-## Pembagian Tugas
-- Semua fitur dikerjakan sendiri oleh [ibrah].
+Dibuat sebagai tugas akhir mata kuliah **Pemrograman Mobile (KBPR303)** – Universitas Ary Ginanjar.
 
-## Penjelasan Fitur
+---
 
-### 🔐 Login Page
-- Menggunakan username `user` dan password `123` sebagai data dummy.
-- Status login disimpan di `SharedPreferences`.
-- Jika belum login, tidak bisa mengakses halaman utama.
+## 👥 Anggota Tim
+- **Muhammad Ibrah Adz-dzikra** — 2310120010  
+- **Ghifari Alif Auladi** — 2310130006  
 
-### 🌓 Light/Dark Mode
-- Tema disimpan di `SharedPreferences`.
-- Pengguna bisa toggle antara light/dark mode melalui ikon di pojok kanan atas.
-- Perubahan langsung diterapkan tanpa restart aplikasi.
+Prodi Ilmu Komputer  
+Universitas Ary Ginanjar
 
-### 🗃️ SQLite & SharedPreferences
-- **SQLite**: Menyimpan data buku (judul, penulis, status). Semua operasi CRUD dilakukan melalui `DatabaseHelper`.
-- **SharedPreferences**: Digunakan untuk menyimpan:
-  - Status login (`isLoggedIn`)
-  - Preferensi tema (`isDarkMode`)
+---
 
-### 📋 List In-Memory untuk UI
-- Data dari SQLite dimuat ke `List<Book>` saat halaman utama dibuka.
-- Semua tampilan UI (seperti `ListView`) menggunakan list ini.
-- Setiap operasi (tambah/hapus) memperbarui list **dan** database secara bersamaan.
+## ✨ Fitur Utama
+- ✅ **Manajemen Buku Lokal**: Tambah, lihat, dan hapus buku dengan status: *Reading / Finished / To Read*
+- ☀️ **Cuaca Real-Time**: Menampilkan suhu saat ini berdasarkan lokasi GPS pengguna
+- 📍 **Toko Buku Terdekat**: Daftar toko buku populer di Jakarta + navigasi langsung ke Google Maps
+- 🔒 **Login Sederhana**: Autentikasi dummy (`user` / `123`)
+- 🌙 **Dark/Light Mode**: Tema UI yang dapat disesuaikan & disimpan secara persisten
+- 💾 **Penyimpanan Offline**: Data buku disimpan di SQLite, preferensi tema & login di `SharedPreferences`
 
-### 📱 Cara Menggunakan Aplikasi
-1. Login dengan username `user` dan password `123`.
-2. Di halaman utama, lihat daftar buku.
-3. Tekan tombol **+** untuk menambah buku.
-4. Geser ke kiri atau tekan ikon **hapus** untuk menghapus.
-5. Ganti tema dengan ikon matahari/bulan di pojok kanan atas.
-6. Logout dengan ikon **logout**.
+---
 
-## Screenshot
+## 🛠️ Teknologi yang Digunakan
+- **Framework**: [Flutter](https://flutter.dev) (Dart)
+- **State Management**: [Provider](https://pub.dev/packages/provider)
+- **Database Lokal**: [sqflite](https://pub.dev/packages/sqflite) (SQLite)
+- **Penyimpanan Persisten**: [shared_preferences](https://pub.dev/packages/shared_preferences)
+- **API Eksternal**: [Open-Meteo Weather API](https://open-meteo.com/)
+- **Lokasi**: [geolocator](https://pub.dev/packages/geolocator)
+- **Navigasi**: Named Routes + Bottom Navigation Bar
+- **Desain**: Material 3, responsif, dark/light mode
 
-1. Login Page  
-   ![Login Page](screenshots/login_page.jpg)
+---
 
-2. Home (Light Mode)  
-   ![Home Light](screenshots/home_light.jpg)
+## 📱 Tampilan Aplikasi
+*(Opsional: tambahkan screenshot di sini setelah deploy)*  
+Contoh alur:
+1. Login → masuk ke halaman utama  
+2. Tab **My Books**: kelola koleksi buku  
+3. Tab **Explore**: cek cuaca & eksplor toko buku
 
-3. Home (Dark Mode)  
-   ![Home Dark](screenshots/home_dark.jpg)
+---
 
-4. Tambah Buku  
-   ![Add Book](screenshots/add_book.jpg)
-
-5. Setelah Ganti Tema  
-   ![Theme Changed](screenshots/after_theme_change.jpg)
+## ▶️ Cara Menjalankan
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/namakamu/book_journey.git
